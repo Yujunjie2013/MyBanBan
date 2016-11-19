@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    app:layout_scrollFlags="scroll">
+    <!--android:fitsSystemWindows="true" 这一句是为了沉浸式状态栏中启作用，防止view滑到状态栏中-->
+
+    <!--AppBarLayout必须是CoorDinatorLayout的直接子View-->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/Appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <!--layout_scrollFlags有4个属性
+     （1） scroll: 所有想滚动出屏幕的view都需要设置这个flag，没有设置这个flag的view将被固定在屏幕顶部。
+     （2） enterAlways: 这个flag让任意向下的滚动都会导致该view变为可见，启用快速“返回模式”。
+     （3） enterAlwaysCollapsed: 当你的视图已经设置minHeight属性又使用此标志时，你的视图只能已最小高度进入，只有当滚动 视图到达顶部时才扩大到完整高度。
+     （4）exitUntilCollapsed：滚动退出屏幕，最后折叠在顶端。
+     -->
+        <!--AppBarLayout一般和Toobar嵌套使用-->
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_scrollFlags="scroll|enterAlways" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="190dp"
+            android:fitsSystemWindows="true"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/lb"
+            app:layout_scrollFlags="scroll" />
+
+        <!--TabLayout用来替代传统的Indicator-->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/white" />
+    </android.support.design.widget.AppBarLayout>
+
+    <!--layout_behavior相当于Relayout中的below。在...下面
+    这里给的一个标识就是表示在AppBarLayout下面
+    -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <!--此控件表示的就是一个悬浮按钮-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:src="@android:drawable/ic_menu_share" />
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">MyBanBan</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="progress_msg">正在加载数据</string>
+    <string name="title_activity_login">MVPDemo</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">账号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="params_empty">账号或密码为空</string>
+    <string name="title">标题</string>
+    <string name="message">消息</string>
+    <string name="app">应用</string>
+    <string name="kaoqing">考勤</string>
+    <string name="office">办公</string>
+    <string name="org">组织</string>
+    <string name="testA">13526880238</string>
+    <string name="testP">123456</string>
+    <string name="detail">我们常常为一些事情感到纠结和烦恼，有的烦恼可以化解，有的烦恼是无法从根本上消除，唯一能够转变的就是我们自己的心态，另外就是让时光来冲淡这一切。人生的历程就是一个从不知到知，从否定到肯定，如此不断反复循环。无论怎样，都要给自己微笑，给自己信心。你微笑，世界也会给你笑脸。
+        守候着自己的世界，或忙或累，或喜或悲，都是一种充实。闲时，静坐一隅，执盏遐思，过去的、现在的、未来的，喜的、悲的...什么都可以去想。或许，美好的东西，
+        本就不该遗忘，怀念也好，思念也罢，用心感受，何尝不是一种幸福？每个人，肩上的背囊，都装满了自己的故事，或伤或痛，不懂卸载，当压的自己，连呼吸都是一种痛的时候，才学会拐弯。有些人，一转身，便走成了背影，有些事，一轮回，便旧成了曾经；学会宽恕自己，原谅错误，想要的，努力去争取；想忘的，时间会帮你。\n当流年的风，或喜或悲，从指尖滑过，转角街头的灯火阑珊，已在光阴的扉页上泛黄，生命的旅程中，没有什么不会在岁月中老去。携一缕暖意，让心没有疏离与荒凉，把那些千回百转的念，凝结成心香，尘封收藏。最好的放下，不是刻意的去忘记，而是让彼此安然。温一盏岁月的暗香，在平静中回味，那些浅浅淡淡的过往，便是岁月留给我们的风景。行一程山水，书一抹眷恋，任走过心间的那缕清韵，在记忆中飞扬。铺一张素笺，将斑驳零散的欢愉，细细描绘，于心之一隅，妥帖安放。寻一处清幽，让那千回百转的念，开成一朵心花，在风中流转。\n请相信，走过流年的山高水长，总有一处风景，会因为我们而美丽；总有一个笑脸，是为我们而绽放；总有一份遇见，唯美了整个曾经；总会有一个人知你冷暖，懂你悲欢；所有相遇的千回百转，为的是来到世上，遇到那个懂你的人；所有的过往，都值得我们珍惜；所有的经历，都是一种懂得，懂得，是生命中最美的缘。</string>
+    <string name="detail_title">详情标题</string>
+    <string name="main_title">主界面</string>
+    <string name="msg">我是和Toast一样的东西</string>
+    <string name="NavigationView_info">总是这个时候，低调的我闪亮登场</string>
+    <string name="news">新闻</string>
+    <string name="photo">照片</string>
+    <string name="video">视频</string>
+    <string name="tools">设置</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="no_data">对不起！没有加载到数据!</string>
+    <string name="load_more_text">正在加载...</string>
+    <string name="input_text">请输入文字</string>
+    <string name="send">发送</string>
+    <string name="failed">失败</string>
+    <string name="success">成功</string>
+    <string name="bottom_app">应用</string>
+    <string name="bottom_msg">消息</string>
+    <string name="bottom_news">新闻</string>
+    <string name="bottom_video">视频</string>
+</resources>
